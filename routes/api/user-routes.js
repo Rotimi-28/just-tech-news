@@ -88,7 +88,7 @@ router.put('/:id', (req, res) => {
         id: req.params.id
       }
     })
-  
+})
   // DELETE /api/users/1
 router.delete('/:id', (req, res) => {
     User.destroy({
@@ -109,4 +109,4 @@ router.delete('/:id', (req, res) => {
       });
   });
 
-  //module.exports = router;
+  module.exports = router;
